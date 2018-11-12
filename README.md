@@ -1,6 +1,6 @@
  ## Heroku Deployment
  
- https://cryptic-dawn-51247.herokuapp.com/
+ https://shot-spot.herokuapp.com/
  
  ## Team Members
  
