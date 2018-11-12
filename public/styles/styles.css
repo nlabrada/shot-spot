@@ -1,0 +1,98 @@
+/* /////////////////////// SHARED /////////////////////// */
+  body{
+    display: flex;
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .logo{
+    margin: 0 auto;
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    border-radius: 0%;
+    background-color: transparent;
+    width: 150px;
+    height: 175px;
+    box-shadow: none;
+  }
+
+  .btn-floating.btn-large{
+    width: 150.5px;
+    height: 150.5px;
+    background-color: #c2e6ff;
+    margin-bottom: 10%;
+  }
+
+  .btn-floating.btn-large i{
+    line-height: 150.5px;
+  }
+
+  #map{
+    margin: 0 auto;
+    width: 75%;
+    height: 25%;
+  }
+
+  .add-bar-btn{
+    margin-bottom: 10%;
+  }
+
+  /* /////////////////////// NAV BAR /////////////////////// */
+  nav .brand-logo{
+    font-family: 'Fugaz One', cursive;
+    color: black;
+  }
+
+  .nav-logo{
+    margin-top: 43%;
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* /////////////////////// INDEX /////////////////////// */
+  .btn-large i{
+    color: black;
+    font-size: 3.6rem;
+  }
+
+  #ask-legal{
+    margin-top: 20%;
+    font-family: 'Chivo', sans-serif;
+    font-weight: bold;
+  }
+
+  /* /////////////////////// HOME /////////////////////// */
+  .home-btn-div{
+    margin-top: 10%;
+  }
+  .btn-large .home-btns{
+    font-size: 2.6rem;
+  }
+  
+  /* /////////////////////// DESKTOP /////////////////////// */
+
+  @media only screen and (min-width: 768px){
+    .btn-floating.btn-large{
+      width: 300.5px;
+      height: 300.5px;
+    }
+
+    .btn-floating.btn-large i{
+      line-height: 300.5px;
+    }
+
+    #ask-legal{
+      margin-top: 5%;
+    }
+
+    .nav-logo{
+      margin-top: 10%;
+      background-image: url("../images/logo.png");
+      background-size: 100% 100%;
+      width: 50px;
+      height: 50px;
+    }
+  }

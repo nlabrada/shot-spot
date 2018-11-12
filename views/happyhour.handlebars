@@ -1,0 +1,82 @@
+<!-- NAVBAR -->
+<nav>
+    <div class="nav-wrapper">
+        <span class="brand-logo center">Cheap Drinks</span>
+        <ul id="nav-mobile">
+            <li>
+                <a href="/home">
+                    <div class="nav-logo"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row center-align">
+        <div class="col s12">
+            <h5>Find your happy place!</h5>
+        </div>
+
+        <!-- NEW BAR BTN -->
+        <div class="col s12 add-bar-btn">
+            <button class="btn modal-trigger" data-target="modal2">Add a New Bar!</button>
+        </div>
+
+        <!-- MAP -->
+        <div class="col s12"> 
+            <div id="map"></div>
+        </div>
+
+    </div>
+
+<!-- MODAL STRUCTURE -->
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <h4>Add A Bar</h4>
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row modal-form-row">
+                    <div class="input-field col s12">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="city" type="text" class="validate">
+                        <label for="city">City</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="time" type="text" class="validate">
+                        <label for="time">Happy Hour Time</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="deal" type="text" class="materialize-textarea validate"></textarea>
+                        <label for="deal">Happy Hour Deal</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a class=" modal-action modal-close waves-effect waves-green btn-flat" id="submit">Submit</a>
+    </div>
+</div>
+
+<div class="row addCardThree">
+
+</div>
+
+</div>
+
+<!-- Scripts, etc. -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="jquery.range.css">
+<script src="/js/happyhour.js"></script>
