@@ -3,12 +3,12 @@
  https://cryptic-dawn-51247.herokuapp.com/
  
  ## Team Members
-  
-- Amanda Kramer
-- Carla Thurston
-- Dylan Marini
-- Nanette Labrada
+ 
 - Sean Angle
+- Amanda Kramer
+- Nanette Labrada
+- Dylan Marini
+- Carla Thurston
 
 ## Description:
 
